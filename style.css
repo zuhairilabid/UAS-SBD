@@ -1,0 +1,106 @@
+body {
+	background-color: #072e33;
+	font-family: "Nunito Sans", sans-serif;
+  }
+
+  .carousel-item img{
+  object-fit: cover;
+  height: 80,5vh;
+  width: 100vw;
+  object-position: center;
+  }
+
+  nav {
+	background-color: #05161a;
+  }
+  
+  h1 {
+	color: #f2f6f8;
+  }
+  
+  p {
+	color: #f2f6f8;
+	font-size: 0.75rem;
+  }
+  
+  a {
+	color: #f2f6f8;
+  }
+  
+  h3 {
+	font-size: 0.9rem;
+	font-weight: 700;
+  }
+  
+  h4 {
+	color: #f2f6f8;
+  }
+  
+  .navbar-brand {
+	color: #f2f6f8;
+  }
+  
+  .nav-link {
+	color: #f2f6f8;
+  }
+  
+  .toast {
+	background-color: #05161a;
+  }
+  
+  #container {
+	padding: 1rem;
+	background-color: #ffffff;
+	max-width: 1000px;
+	margin: 1rem auto;
+	justify-content: center;
+  }
+  
+  .user-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: minmax(350px, auto);
+	grid-gap: 0.9rem;
+  }
+  
+  .card {
+	padding: 1rem;
+	background-color: #ffffff;
+	border-radius: 5px;
+	transition: all 0.4s ease-in-out;
+	overflow: hidden;
+  }
+  
+  .card:hover {
+	box-shadow: inset 0 100px 1000px 10px rgba(21, 180, 130, 0.995);
+  }
+  
+  .card:hover .user-content {
+	opacity: 1;
+  }
+  
+  .user-content {
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	position: relative;
+  }
+  
+  .bio {
+	position: absolute;
+	top: 255px;
+	left: 10px;
+  }
+  
+  .social {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+  }
+  
+  .center {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
