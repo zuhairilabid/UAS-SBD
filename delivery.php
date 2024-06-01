@@ -31,7 +31,7 @@
 <nav class="navbar navbar-expand-lg p-5" data-bs-theme="dark">
     <div class="container-fluid">
       <!-- Disabled Navbar -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="dashboard.php">
         <img src="Asset/Pic1.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
         Packed</a>
       <!-- Disabled Navbar End -->
